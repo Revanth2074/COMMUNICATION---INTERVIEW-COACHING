@@ -1,0 +1,230 @@
+COMMUNICATION & INTERVIEW COACHING 
+Overview 
+Candidates preparing for interviews often need to improve their communication, confidence, 
+clarity, response structure, and ability to answer role-specific questions. Traditional interview 
+preparation generally provides static questions and sample answers but does not provide 
+personalized feedback based on the candidate's actual responses. 
+Candidates may want to practice questions such as: 
+• 
+“Tell me about yourself.”  
+• 
+“Why are you interested in this role?”  
+• 
+“Describe a challenging project you worked on.”  
+• 
+“How would you handle a difficult customer or stakeholder?”  
+• 
+“Explain this technical concept in simple terms.”  
+• 
+“Can you evaluate my answer and tell me how I can improve it?”  
+An intelligent interview coaching system should understand the candidate's response, evaluate 
+it against the question and expected competencies, identify areas for improvement, and 
+provide actionable feedback. 
+Build an AI-powered Communication & Interview Coaching system that allows candidates to 
+practice interview questions, submit text or voice responses, receive structured feedback, 
+identify communication gaps, and improve their interview performance through personalized 
+coaching. 
+Tasks 
+Task 
+Task Overview 
+Weightage 
+Task 1 – Interview Content & 
+Candidate Profile Preparation 
+Prepare interview questions, role 
+information and candidate inputs required 
+for personalized interview coaching. 
+20% 
+Task 2 – Intelligent Interview 
+Practice & Response Evaluation 
+Enable candidates to practice interview 
+questions and receive structured 
+feedback on their responses. 
+25% 
+Task 3 – Multi-Agent Interview 
+Coaching & Personalized 
+Feedback 
+Extend the basic evaluation system into a 
+specialized multi-agent coaching 
+workflow. 
+25% 
+Task 4 – Evaluation, Progress 
+Tracking & User Application 
+Evaluate coaching quality and provide an 
+interactive application for candidates to 
+practice interviews. 
+20% 
+Task 5 – Architecture, 
+Documentation & Demonstration 
+Document the complete solution and 
+demonstrate the working interview 
+coaching system. 
+10% 
+Total 
+ 
+100% 
+ 
+ 
+
+Task Details 
+Task 1 – Interview Content & Candidate Profile Preparation 
+• 
+Prepare the interview-question and candidate information required for the coaching 
+system. 
+• 
+The solution should organize interview questions based on relevant attributes such as: 
+• 
+Role  
+• 
+Competency  
+• 
+Difficulty  
+• 
+Question type  
+Where candidate information is provided, the system should use relevant profile 
+information such as skills, experience and target role to support personalized question 
+selection. 
+• 
+Define suitable evaluation criteria for assessing candidate responses. 
+ 
+Task 2 – Intelligent Interview Practice & Response Evaluation 
+• 
+Build the core interview-practice capability. 
+• 
+A candidate should be able to select or receive an interview question and submit a 
+response through text and/or voice. 
+• 
+The system should analyze the response and provide structured feedback covering 
+areas such as: 
+• 
+Relevance to the question  
+• 
+Clarity  
+• 
+Response structure  
+• 
+Completeness  
+• 
+Communication quality  
+• 
+Strengths  
+• 
+Areas for improvement  
+Where applicable, the system should provide an improved response or guidance on how the 
+candidate could structure the answer more effectively. 
+ 
+Task 3 – Multi-Agent Interview Coaching & Personalized Feedback 
+Extend the basic interview evaluation system into a specialized multi-agent coaching workflow. 
+The implementation should include: 
+• 
+Interview Question Agent – selects or generates suitable interview questions based on 
+the candidate's target role and competency.  
+• 
+Communication Analysis Agent – evaluates clarity, structure, conciseness and 
+communication quality.  
+• 
+Content Evaluation Agent – evaluates whether the response addresses the question 
+and demonstrates relevant knowledge or experience.  
+
+• 
+STAR/Response Structure Agent – evaluates behavioral responses using an 
+appropriate response structure such as Situation, Task, Action and Result.  
+• 
+Interview Coach Agent – consolidates the outputs from the specialist agents and 
+generates personalized coaching feedback.  
+The system should also demonstrate: 
+• 
+Agent handoff for deeper response analysis.  
+• 
+A2A communication where applicable.  
+• 
+Personalized follow-up questions based on the candidate's answer.  
+• 
+Identification of recurring communication or response-quality gaps.  
+• 
+A personalized improvement plan based on the candidate's performance across 
+practice sessions.  
+ 
+Task 4 – Evaluation, Progress Tracking & User Application 
+Evaluate the quality and consistency of the interview coaching system. The evaluation should 
+consider: 
+• 
+Question relevance  
+• 
+Response-analysis quality  
+• 
+Feedback consistency  
+• 
+Evidence supporting identified strengths and weaknesses  
+• 
+Usefulness of improvement suggestions  
+A simple front-end should allow candidates to: 
+1. Select a target role or interview category.  
+2. Receive an interview question.  
+3. Submit a text or voice response.  
+4. View the response analysis.  
+5. Review strengths and improvement areas.  
+6. View personalized coaching suggestions.  
+7. Practice follow-up questions.  
+8. Track improvement across multiple sessions where implemented.  
+ 
+Task 5 – Architecture, Documentation & Demonstration 
+• 
+Provide complete technical documentation and demonstrate the working solution. The 
+architecture should clearly show: 
+Candidate → Interview Question → Response → Response Analysis → Specialist 
+Agents → Coaching Feedback → Improvement Plan 
+• 
+The documentation should explain the major technical decisions, agent workflow, 
+evaluation approach and design trade-offs. 
+• 
+The executable implementation and README should allow another user to set up and 
+run the solution. 
+ 
+Deliverables 
+1. Architecture Diagram 
+
+• 
+Include a high-level view of your system in JPEG or PDF.  
+• 
+Show how data is processed from the interview-question/candidate inputs through to 
+the final coaching response.  
+2. Design 
+• 
+Articulate system design decisions taken and the trade-offs made.  
+3. Full Executable Code (Microservice) 
+• 
+Focus on clarity and modularity.  
+• 
+Provide a README explaining:  
+o 
+Project setup (how to install or run)  
+o 
+Sample usage (e.g., an interview question, candidate response and resulting 
+coaching feedback)  
+4. Panel Presentation (10 minutes) 
+• 
+Demo of your working solution outlining the design and approach (8 minutes).  
+• 
+QCA (2 minutes).  
+ 
+Dataset Name 
+Interview Questions / Candidate Communication Dataset 
+Primary Dataset 
+RecruitView – Hugging Face Dataset 
+Alternative Links / Datasets 
+1. Awesome Interview Questions – Hugging Face 
+Interview Questions Dataset – Hugging Face 
+2. Interview Questions – GitHub 
+Public Interview Questions CSV – GitHub 
+3. Continuum Open-Source Interview Questions 
+Continuum Interview Questions – GitHub 
+Format 
+CSV / JSON / Text, depending on the provided dataset. 
+Key Fields 
+Question, role, competency, difficulty, question type, candidate response, expected 
+competency and evaluation criteria. 
+Reason 
+The interview dataset provides the information required to support intelligent question 
+selection, candidate-response evaluation, communication analysis, personalized coaching, 
+follow-up questioning and interview-practice feedback. 
+ 
